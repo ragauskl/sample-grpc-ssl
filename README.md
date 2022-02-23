@@ -4,7 +4,9 @@ Small TypeScript example for using gRPC with SSL in Node.js. For sake of simplic
 
 # Instructions
 
-* Run `npm i && npm init`
+* npm i
+* npm init
+* npm start
 
 # Notes
 
