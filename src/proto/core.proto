@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+// option java_multiple_files = true;
+// option java_package = "io.grpc.example";
+// option java_outer_classname = "CoreProto";
+// option objc_class_prefix = "RTG";
+
+package core;
+
+service Core {
+  rpc send (Data) returns (Data) {}
+}
+
+message Data {
+  string message = 1;
+}
+
